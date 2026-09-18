@@ -1,7 +1,5 @@
 
 
-
-
 # The Automobile Fleet \& Sales Management System
 
 
@@ -31,10 +29,10 @@ The Automobile Fleet \& Sales Management System is a command-line interface (CLI
 
 
 
-* Programming Language: Java 
+* Programming Language: Java
 * Architecture: Object-Oriented Architecture
 * Concurrency: Java Multithreading \& Synchronization Methods
-* File System: Java Character Streams 
+* File System: Java Character Streams
 * Version Control: Git \& GitHub
 
 
@@ -109,7 +107,7 @@ javac -version
 
 1\. Clone the Repository
 
-git clone \[https://github.com/your-username/automobile-fleet-management.git](https://www.google.com/search?q=https://github.com/your-username/automobile-fleet-management.git\&utm\_source=gemini)
+git clone https://github.com/saiprasad097/automobile-fleet-management.githttps://github.com/saiprasad097/automobile-fleet-management.git
 
 cd automobile-fleet-management
 
@@ -163,18 +161,4 @@ Select an option: 1
 ID: V101 | Model: Sedan GT | Type: Car | Price: $25000.0 | Stock: 5
 
 ID: V102 | Model: HaulerX  | Type: Truck | Price: $45000.0 | Stock: 2
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
