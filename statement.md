@@ -48,7 +48,7 @@ This project offers a light weight CLI Automobile Fleet \& Sales Management syst
 
 * Inventory Management Module: Adding of new vehicles, displaying fleet inventory and dynamic queries of stock details.
 * Order \& Transaction Engine: Processing vehicle purchasing, calculating billing amounts and updating of inventory.
-* Asynchronous File Audit Logger: Writes invoices for customers and sales information into non-volatile files in parallel mode without causing any blocking in the terminal menu. 
+* Asynchronous File Audit Logger: Writes invoices for customers and sales information into non-volatile files in parallel mode without causing any blocking in the terminal menu.
 
 
 
@@ -56,14 +56,14 @@ This project offers a light weight CLI Automobile Fleet \& Sales Management syst
 
 
 
-* ## Non-functional requirements 
+* ## Non-functional requirements
 
 
 
-* Concurrency \& Thread Safety: Multi-threading of background tasks does not create any race condition while updating stocks.  
-* Fault Tolerance \& Error Handling: User-defined runtime exceptions handle out-of-stock products, incorrect vehicle IDs and other errors gracefully.   
-* Zero GUI Portability: Ability to execute in any standard terminal environment through standard Java runtime libraries.   
-* Maintainability \& Clean Architecture: Separation of models, service layer, custom exceptions and file handling utilities in modules.   
+* Concurrency \& Thread Safety: Multi-threading of background tasks does not create any race condition while updating stocks.
+* Fault Tolerance \& Error Handling: User-defined runtime exceptions handle out-of-stock products, incorrect vehicle IDs and other errors gracefully.
+* Zero GUI Portability: Ability to execute in any standard terminal environment through standard Java runtime libraries.
+* Maintainability \& Clean Architecture: Separation of models, service layer, custom exceptions and file handling utilities in modules.
 
 
 
@@ -83,8 +83,4 @@ This project offers a light weight CLI Automobile Fleet \& Sales Management syst
 * Input validation \& Exception handling: Custom exceptions prevent crashes on erroneous input in operational scenarios.
 * Parallel auditing logging: Concurrent execution pipelines ensure that background task does not slow down the terminal menu execution.
 * Streams-based storage: Use of character and byte streams to store logs of completed transactions in audit format.
-
-
-
-
 
